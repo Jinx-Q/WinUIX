@@ -16,7 +16,7 @@ using Windows.Foundation.Collections;
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace WinUIX
+namespace WinUI
 {
     /// <summary>
     /// An empty window that can be used on its own or navigated to within a Frame.
@@ -28,9 +28,18 @@ namespace WinUIX
             this.InitializeComponent();
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
+        private async void WinUI_Click(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Clicked";
+            var welcomeDialog = new ContentDialog()
+            {
+                Title = "Hello from Hello Kita",
+                Content = "Welcome to my first Windows App SDK app, 20240116",
+                CloseButtonText = "OK, Goood!!!",
+                XamlRoot = WinUI_Learn.XamlRoot
+
+            };
+            await welcomeDialog.ShowAsync();
+            ///myButton.Content = "Clicked";
         }
     }
 }
