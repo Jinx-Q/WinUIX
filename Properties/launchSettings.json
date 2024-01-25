@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WinUIX (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WinUIX (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
