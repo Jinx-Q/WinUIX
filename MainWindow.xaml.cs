@@ -33,7 +33,7 @@ namespace WinUI
             var welcomeDialog = new ContentDialog()
             {
                 Title = "Hello from Hello Kita,Nice Job",
-                Content = "Welcome to my first Windows App SDK app, 20240125",
+                Content = "Welcome to my first Windows App SDK app",
                 CloseButtonText = "OK, Goood!!!",
                 XamlRoot = WinUI_Learn.XamlRoot
 
@@ -47,7 +47,7 @@ namespace WinUI
             var welcomeDialog = new ContentDialog()
             {
                 Title = "Are you ok Leijun,Nice Job",
-                Content = "Welcome to my first Windows App SDK app, 20240126",
+                Content = "Welcome to my first Windows App SDK app,Test2",
                 CloseButtonText = "OK, Nice!!",
                 XamlRoot = WinUI_Le.XamlRoot
 
