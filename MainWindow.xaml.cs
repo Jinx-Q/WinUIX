@@ -41,5 +41,19 @@ namespace WinUI
             await welcomeDialog.ShowAsync();
             ///myButton.Content = "Clicked";
         }
+
+        private async void WinUI_Cli(object sender, RoutedEventArgs e)
+        {
+            var welcomeDialog = new ContentDialog()
+            {
+                Title = "Are you ok Leijun,Nice Job",
+                Content = "Welcome to my first Windows App SDK app, 20240126",
+                CloseButtonText = "OK, Nice!!",
+                XamlRoot = WinUI_Le.XamlRoot
+
+            };
+            await welcomeDialog.ShowAsync();
+            ///myButton.Content = "Clicked";
+        }
     }
 }
