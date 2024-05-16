@@ -25,6 +25,7 @@ namespace WinUIX
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
+    /// finia
     public partial class App : Application
     {
         /// <summary>
